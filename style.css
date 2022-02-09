@@ -11,8 +11,11 @@ Body{
 }
 
 nav a{
-  border: deeppink dotted;
-  background-color: black;
+  border: deeppink double;
+  color-adjust: inherit;
+  border-collapse: collapse;
+  color:black;
+  background-color: honeydew;
   margin: 20px;
   text-decoration: none;
 }
@@ -34,12 +37,15 @@ p{
 
 h3{
   margin: 10px;
-  padding: 10px;
-  
+  padding: 15px;
+  background-color: aliceblue;
+   
+
 }
 img{
   border: powderblue double;
   border-collapse: true;
+  background-color: oldlace;
 }
 
 iframe{
